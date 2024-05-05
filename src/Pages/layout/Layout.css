@@ -3,7 +3,7 @@
 }
 .sidebar{
   height: 100vh;
-  background-color: rgb(44, 1, 46);
+  background-image: linear-gradient(to right, #141e30, #243b55);
   width: 90px;
 }
 .toggle-sidebar{
@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 .sidebar-toggle-icon p svg{
-  background-color: rgb(168, 123, 211);
+  background-color: rgb(145, 255, 0);
   color: white;
   margin-top: 25px;
 }
