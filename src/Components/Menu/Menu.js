@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Menu.css"
 import { FcHome,FcAbout, FcPortraitMode, FcBiotech, FcVideoProjector, FcReadingEbook, FcVoicePresentation, FcBusinessContact } from "react-icons/fc";
-import portfolioImage from '../../Images/portfolio.png'
+import portfolioImage from '../../Images/por.png'
 const Menu = ({toggle}) => {
   return (
     <>

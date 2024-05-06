@@ -1,17 +1,22 @@
 .navbar-profile-pic img{
-  border-radius: 90px;
-  width: 150px;
-  height: 150px;
+  border-radius: 80px;
+  width: 145px;
+  background-color: rgb(251, 255, 1);
+  /* background-color: rgb(226, 226, 226); */
+  background-image:  linear-gradient(rgba(239, 232, 232, 0.02),rgb(215, 214, 214));
+  height: 145px;
   display: flex;
   vertical-align: middle;
   margin: 0 auto;
   margin-top: 0px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .nav-item{
-  color: white;
+  color: black;
   margin-top: 30px;
   margin-left: 25px;
+  font-weight: 500;
 }
 .nav-link{
   margin-top: 20px;
@@ -19,8 +24,8 @@
 }
 .nav-link svg{
   margin-right: 10px;
-  
 }
+
 .nav-link:hover{
-  color:rgb(145, 255, 0);
+  color: white;
 }
