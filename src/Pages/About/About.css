@@ -17,13 +17,13 @@
   align-items: center;
 }
 .about-content h1{
-  font-weight: 500;
-  font-family: sans-serif;
+  font-weight: 550;
+  /* font-family: sans-serif; */
   text-align: center;
-  color: #90f000;
+  color: #06b206;
 }
 .about-content p{
   padding: 20px;
-  font-family: sans-serif;
+  font-family: cursive;
   text-align: justify;
 }
