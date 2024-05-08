@@ -10,21 +10,21 @@
 .home-content h1{
   padding: 5px;
   margin-left: 150px;
-  color: #00ff00;
+  color: #ffff00;
 }
 .home-buttons{
   margin-left: 150px;
   margin-top: 20px;
 }
 .home-buttons .btn-hire{
-  background-color: #00ff00;
-  color: white;
+  background-color: #0fdc87;
+  color: black;
   width: 160px;
 }
 .home-buttons .btn-cv{
   background-color: black;
   border: 2px solid white;
-  color: #00ff00;
+  color: #0fdc87;
   width: 160px;
   margin-left: 15px;
 }

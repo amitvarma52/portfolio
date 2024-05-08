@@ -3,7 +3,7 @@
   margin-top: 60px;
 }
 .techstack hr{
-  width: 400px  ;
+  width: 400px;
   color: black;
   margin: 10px auto;
 }
@@ -28,6 +28,6 @@
   color: white;
 }
 .techstack .card:hover{
-  opacity: 0.9;
+  opacity: 0.5;
   transition: 0.4s;
 }
