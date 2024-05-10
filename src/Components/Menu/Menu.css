@@ -2,21 +2,20 @@
   border-radius: 80px;
   width: 145px;
   background-color: rgb(251, 255, 1);
-  /* background-color: rgb(226, 226, 226); */
   background-image:  linear-gradient(rgba(239, 232, 232, 0.02),rgb(215, 214, 214));
   height: 145px;
   display: flex;
   vertical-align: middle;
   margin: 0 auto;
   margin-top: 0px;
-  border: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 2px solid grey;
+  box-shadow: rgba(100, 1x00, 111, 0.2) 0px 7px 29px 0px;
 }
 .nav-item{
   color: black;
   margin-top: 30px;
   margin-left: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .nav-link{
   margin-top: 20px;

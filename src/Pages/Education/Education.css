@@ -1,0 +1,22 @@
+.education{
+  margin: 20px 0px;
+  margin-left: 120px;
+  background-color: black;
+  padding: 30px 0;
+  border-radius: 30px;
+}
+.education hr{
+  width: 340px;
+  color: black;
+  margin: 10px auto;
+}
+.education p{
+  font-weight: bold;
+}
+.education h2{
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+}
+h3{
+  font-weight: bolder;
+}

@@ -1,0 +1,82 @@
+.contact{
+  margin-left: 150px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+.card0{
+  box-shadow: 0px 4px 8px 0px grey;
+  border-radius: 0px;
+}
+.card2{
+  margin:0px 20px;
+  margin-top: 30px;
+}
+.card1 .image{
+  padding: 30px;
+  margin-top:15px;
+  width: 100%;
+  height: 100%;
+}
+.line{
+  height: 1px;
+  width: 45%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+.con,.card2 ,.card1{
+  background-color: black;
+  color: white;
+}
+.or{
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+}
+.con{
+  border-right: 1px solid rgb(226, 224, 224);
+}
+::placeholder{
+  color: #a4ffdf;
+  opacity: 1;
+  font-weight: 500;
+}
+input,textarea{
+  padding: 10px 12px;
+  border-radius: 19px;
+  border: 2px solid grey;
+  margin-top: 5px;
+  width: 100%;
+  color:#9affd5;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  background-color: black;
+}
+input:focus ,textarea:focus{
+  outline: none;
+  box-shadow: none;
+  outline-width: 0px;
+}
+.button{
+  background-color:#51f5ae ;
+  color: black;
+  border-radius: 19px ;
+  margin-top: 12px;
+  outline: none;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: #51f5ae;
+  transition: .3s;
+}
+button:focus{
+  box-shadow: none;
+  outline-width: 0px;
+}

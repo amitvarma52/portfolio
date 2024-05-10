@@ -4,12 +4,16 @@
 }
 .sidebar{
   height: 100vh;
-  background-color: #0ccdd4; 
+  /* background-color: #358335; */
+  background-image: linear-gradient(to bottom right, #00C0FF, #4218B8); 
+  background-image: linear-gradient(to bottom right, #38A2D7, #561139);
+  background-image: linear-gradient(to bottom right, #6df86d, #1FC5A8);
   width: 90px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   position: fixed;
 }
 .toggle-sidebar{
-  width: 200px;
+  width: 210px;
 }
 .sidebar-toggle-icon{
   display: flex;
