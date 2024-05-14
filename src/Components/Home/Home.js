@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./Home.css"
 import Resume from '../../assets/doc/Resume.txt'
@@ -5,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 const Home = () => {
   return (
     <>
-      <div className='container-fluid home-container'>
+      <div className='container-fluid home-container' id='home'>
         <div className='container home-content'>
           <h2>Hi 👋 I'm a</h2>
           <h1>

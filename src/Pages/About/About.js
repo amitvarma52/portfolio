@@ -4,14 +4,14 @@ import portfolioImage from '../../Images/por.png'
 const About = () => {
   return (
     <>
-     <div className='about'>
+     <div className='about' id='about'>
       <div className='row'>
         <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
           <img src={portfolioImage} alt='profile img'></img>
         </div>
         <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content'>
           <h1>About me</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facere optio odio nemo commodi tempore? Mollitia, perspiciatis sequi molestias ullam ea exercitationem quaerat ratione facilis perferendis doloribus. Suscipit tempore iste, totam corrupti ea quod earum veniam minimenda. Tempore!</p>
+          <p>Passionate about crafting seamless and dynamic web experiences, I am a dedicated frontend developer with a keen eye for design and a knack for problem-solving. With a strong foundation in HTML, CSS, and JavaScript,React</p>
         </div>
       </div>
       </div> 

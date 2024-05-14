@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from './Pages/layout/Layout';
@@ -20,6 +21,7 @@ function App() {
     <footer className='footer mb-3 ms-3'>
       <h4 className='text-center'>Made with ❤ by - Amit varma</h4>
     </footer>
+    <ScrollToTop smooth />
     </>
   )
 }

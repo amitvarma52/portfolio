@@ -9,7 +9,7 @@ import { IoSchool } from "react-icons/io5";
 const Education = () => {
   return (
     <>
-      <div className=" education">
+      <div className=" education" id="education">
         <h2 className="col-12 mt-3 mb-1 text-center">Education</h2>
         <hr></hr>
         <VerticalTimeline>
