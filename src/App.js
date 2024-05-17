@@ -2,6 +2,7 @@ import { useTheme } from "./context/ThemeContext";
 import ScrollToTop from "react-scroll-to-top";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
+import MobileNav from "./Components/MobileNav/MobileNav";
 import Layout from './Pages/layout/Layout';
 import About from './Pages/About/About';
 import Techstack from './Pages/Techstack/Techstack';
@@ -12,7 +13,8 @@ function App() {
 const [theme]=useTheme()
   return (
     <>
-    <div id={theme} >  
+    <div id={theme}>  
+    <MobileNav></MobileNav>
     <Layout></Layout>
     <div className='container'>
     <About></About>

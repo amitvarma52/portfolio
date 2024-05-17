@@ -12,7 +12,7 @@
   box-shadow: rgba(100, 1x00, 111, 0.2) 0px 7px 29px 0px;
 }
 .nav-item{
-  color: black;
+  color: #4affb6;
   margin-top: 30px;
   margin-left: 25px;
   font-weight: 600;
@@ -25,11 +25,11 @@
   margin-right: 10px;
 }
 .nav-link .active{
-  color: white;
+  color: yellow;
   text-decoration: none;
   padding-left: 5px;
-  border-left: 4px solid black;
+  border-left: 4px solid #4affb6;
 }
 .nav-link:hover{
-  color: white;
+  color: black;
 }
