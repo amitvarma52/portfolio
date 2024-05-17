@@ -32,3 +32,19 @@
   opacity:0.5;
   transition: 0.2s;
 }
+.theme-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(74, 7, 129);
+  margin-top: 20px;
+  text-align: center;
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+  right: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

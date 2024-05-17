@@ -1,3 +1,4 @@
+import { useTheme } from "./context/ThemeContext";
 import ScrollToTop from "react-scroll-to-top";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -8,8 +9,10 @@ import Projects from './Pages/Projects/Projects';
 import Education from './Pages/Education/Education';
 import Contact from './Pages/Contact/Contact';
 function App() {
+const [theme]=useTheme()
   return (
-    <>  
+    <>
+    <div id={theme} >  
     <Layout></Layout>
     <div className='container'>
     <About></About>
@@ -18,9 +21,10 @@ function App() {
     <Projects></Projects>
     <Contact></Contact>
     </div>
-    <footer className='footer mb-3 ms-3'>
-      <h4 className='text-center'>Made with ❤ by - Amit varma</h4>
+    <footer className='footer pb-3 ms-3'>
+      <h4 className='text-center'>Made with ❤ by - &#169; Amit varma</h4>
     </footer>
+    </div>
     <ScrollToTop smooth />
     </>
   )

@@ -80,3 +80,11 @@ button:focus{
   box-shadow: none;
   outline-width: 0px;
 }
+/* dark */
+#dark .card0{
+  box-shadow: none;
+  border: white 1px solid;
+}
+#dark .con{
+  border-right: 1px solid black;
+}
